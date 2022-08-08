@@ -1,6 +1,6 @@
 package store
 
-import "github.com/maksgru/base-rest-api/internal/app/model"
+import "github.com/maksgru/cryptogram-server/internal/app/model"
 
 type UserRepository struct {
 	store *Store

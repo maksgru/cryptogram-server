@@ -1,6 +1,6 @@
 package apiserver
 
-import "github.com/maksgru/base-rest-api/internal/app/store"
+import "github.com/maksgru/cryptogram-server/internal/app/store"
 
 type Config struct {
 	BindAddr string `toml:"bind_addr"`

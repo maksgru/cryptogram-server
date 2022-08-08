@@ -1,10 +1,11 @@
 package store_test
 
 import (
-	"github.com/maksgru/base-rest-api/internal/app/model"
-	"github.com/maksgru/base-rest-api/internal/app/store"
-	"github.com/stretchr/testify/assert"
 	"testing"
+
+	"github.com/maksgru/cryptogram-server/internal/app/model"
+	"github.com/maksgru/cryptogram-server/internal/app/store"
+	"github.com/stretchr/testify/assert"
 )
 
 func TestUserRepository_Create(t *testing.T) {
