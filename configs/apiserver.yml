@@ -1,0 +1,8 @@
+log_level: "debug"
+api_server:
+  bind_addr: ":8080"
+postgres_config:
+  host: localhost
+  dbname: cryptogram
+  user: cryptogram
+  password: cryptogram
